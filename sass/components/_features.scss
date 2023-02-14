@@ -1,0 +1,48 @@
+.section-title,
+.team-item {
+    color: var(--heading-text-color);
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+.feature {
+    display: flex;
+    gap: 30px;
+
+    &__icon {
+    display: block;
+}
+
+    &__title {
+    color: var(--heading-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+
+    &__card {
+    width: 270px;
+}
+}
+
+.card-icon {
+    background-color: var(--team-color);
+    margin-bottom: 30px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    font-size: 14px;
+    line-height: 1.71;
+}

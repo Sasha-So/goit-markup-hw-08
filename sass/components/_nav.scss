@@ -1,0 +1,72 @@
+.nav {
+    display: flex;
+
+
+    &__logo {
+        color: var(--heading-text-color);
+        font-family: 'Raleway', sans-serif;
+        letter-spacing: 0.03em;
+        font-size: 26px;
+        line-height: 1.2;
+        padding-top: 24px;
+        padding-bottom: 25px;
+
+
+        & span {
+            color: var(--accent-color);
+        }
+    }
+
+    &__list {
+        display: flex;
+        margin-left: 94px;
+    }
+    
+    &__link {
+        color: var(--heading-text-color);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        display: block;
+        margin-right: 50px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    
+        transition: color var(--time) var(--transform);
+
+        &:hover,
+        &:focus {
+            color: var(--accent-color);
+        }
+
+
+        &--current {
+            color: var(--accent-color);
+            position: relative;
+
+
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: -1px;
+                right: 0;
+                height: 4px;
+                width: 100%;
+                border-radius: 2px;
+                background-color: var(--accent-color);
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

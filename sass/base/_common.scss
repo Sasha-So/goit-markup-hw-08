@@ -1,0 +1,33 @@
+.page {
+    background-color: var(--main-white-color);
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+
+    & .list {
+        display: flex;
+        gap: 30px;
+    }
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+

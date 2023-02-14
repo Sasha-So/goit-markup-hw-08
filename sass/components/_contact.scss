@@ -1,0 +1,39 @@
+.contact__link {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+    align-items: center;
+
+    transition: color var(--time) var(--transform);
+
+    &:hover,
+    &:focus {
+    color: var(--accent-color);
+}
+}
+
+.contact__list {
+    display: flex;
+    margin-left: auto;
+}
+
+.contact__mail {
+    margin-right: 50px;
+}
+
+.contact__icon {
+    margin-right: 10px;
+    fill: var(--primary-text-color);
+
+    transition: fill var(--time) var(--transform);
+
+    .contact__link:hover &,
+    .contact__link:focus & {
+    fill: var(--accent-color);
+}
+}
