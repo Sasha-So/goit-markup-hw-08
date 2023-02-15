@@ -1,0 +1,25 @@
+.container {
+@media screen and (min-width:480px) {}
+    // Phone (<767px)
+    min-width: 320px;
+    max-width: 480px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+
+@media screen and (min-width:768px) {}
+    // tablet (>768px)
+    @media screen and (min-width:$tablet) {
+        max-width: 768px;
+    }
+
+@media screen and (min-width:1200px) {}
+    // Desktop (>1200px)
+    @media screen and (min-width:$desktop) {
+        max-width: 1200px;
+    }
+
+
+    outline: 2px solid red;
+    outline-offset: -2px;
+}

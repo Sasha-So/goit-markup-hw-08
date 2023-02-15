@@ -1,0 +1,26 @@
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    @media screen and (min-width:$desktop) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+        }
+
+    & .list {
+        display: flex;
+        gap: 30px;
+    }
+}
+
+.section-title,
+.team-item {
+    color: var(--heading-text-color);
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}

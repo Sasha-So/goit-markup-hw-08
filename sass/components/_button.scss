@@ -19,10 +19,14 @@
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
-    padding: 10px 32px;
+    padding: 10px 24px;
 
     transition: background-color var(--time) var(--transform), box-shadow var(--time) var(--transform);
 
+    @media screen and (min-width:1200px) {
+        padding: 10px 32px;
+    }
+    
     &:hover,
     &:focus {
     background-color: var(--primary-button-color);

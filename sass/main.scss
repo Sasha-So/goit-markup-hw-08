@@ -7,8 +7,11 @@
 @import "./base/reset";
 
 // components styles
+@import "./components/container";
+@import "./components/section";
 @import "./components/button";
 @import "./components/header";
+@import "./components/mobile";
 @import "./components/nav";
 @import "./components/contact";
 @import "./components/hero";

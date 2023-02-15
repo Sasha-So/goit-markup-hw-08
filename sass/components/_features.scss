@@ -1,18 +1,15 @@
-.section-title,
-.team-item {
-    color: var(--heading-text-color);
-}
-
-.section-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-}
 
 .feature {
-    display: flex;
+    flex-direction: column;
     gap: 30px;
+
+
+@media screen and (min-width:$tablet) {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    @media screen and (min-width:$desktop) {}
 
     &__icon {
     display: block;
@@ -25,12 +22,19 @@
     line-height: 1.14;
     text-transform: uppercase;
     margin-bottom: 10px;
+    text-align: center;
 }
-
 
     &__card {
-    width: 270px;
-}
+        width: 100%;
+
+        @media screen and (min-width:$tablet) {
+            width: 354px;
+        }
+        @media screen and (min-width:$desktop) {
+            width: 270px;
+        }
+    }
 }
 
 .card-icon {
@@ -40,6 +44,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .text {

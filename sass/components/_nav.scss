@@ -6,10 +6,25 @@
         color: var(--heading-text-color);
         font-family: 'Raleway', sans-serif;
         letter-spacing: 0.03em;
-        font-size: 26px;
-        line-height: 1.2;
-        padding-top: 24px;
-        padding-bottom: 25px;
+        font-size: 24px;
+        line-height: calc(28/24);
+        padding-top: 16px;
+        padding-bottom: 16px;
+
+
+        @media screen and (min-width: 768px) {
+                padding-top: 26px;
+                padding-bottom: 25px;
+                margin-right: 87px;
+            }
+        
+            @media screen and (min-width: 1200px) {
+                padding-top: 24px;
+                padding-bottom: 24px;
+                margin-right: 92px;
+                font-size: 26px;
+                line-height: 1.2;
+            }
 
 
         & span {
@@ -18,8 +33,9 @@
     }
 
     &__list {
-        display: flex;
-        margin-left: 94px;
+        display: none;
+        // display: flex;
+        // margin-left: 94px;
     }
     
     &__link {

@@ -1,5 +1,10 @@
 .section-project {
+    display: none;
+
+    @media screen and (min-width:$desktop) {
     padding-top: 0;
+    display: block;
+}
 }
 
 .project.section-title {
