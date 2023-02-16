@@ -15,11 +15,29 @@
     &:focus {
     color: var(--accent-color);
 }
+    @media screen and (min-width:768px) {
+            margin-bottom: 0;
+        }
+    
 }
 
-.contact__list {display: none;
-    // display: flex;
-    // margin-left: auto;
+.contact__list {
+    display: none;
+    margin-left: auto;
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    @media screen and (min-width: 1200px) {
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+    }
 }
 
 .contact__mail {
@@ -36,4 +54,24 @@
     .contact__link:focus & {
     fill: var(--accent-color);
 }
+}
+.contact__link{
+    display: flex;
+        align-items: center;
+        gap: 10px;
+    
+        padding-top: 32px;
+        padding-bottom: 31px;
+    
+        color: var(--primary-text-color);
+    
+        @media screen and (min-width: 768px) {
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            padding-top: 32px;
+            padding-bottom: 31px;
+        }
 }

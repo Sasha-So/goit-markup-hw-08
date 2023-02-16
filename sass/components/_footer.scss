@@ -7,8 +7,6 @@
     &__container {
     display: flex;
     flex-direction: column;
-    outline: 2px solid red;
-    outline-offset: -2px;
 
     @media screen and (min-width: 768px) {
             flex-direction: row;
@@ -46,8 +44,6 @@
     line-height: 1.2;
     display: inline-block;
     margin-bottom: 20px;
-    outline: 2px solid red;
-    outline-offset: -2px;
 }
 
     &__span {
@@ -65,8 +61,6 @@
 
     gap: 10px;
     margin-top: 20px;
-    outline: 2px solid red;
-    outline-offset: -2px;
 }
 
     &__link {
@@ -85,8 +79,6 @@
     max-width: 450px;
     width: 100%;
     gap: 20px;
-    outline: 2px solid red;
-    outline-offset: -2px;
 
 
     @media screen and (min-width:768px) {
@@ -103,8 +95,6 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
-    outline: 2px solid red;
-    outline-offset: -2px;
 
     @media screen and (min-width:1200px) {
             flex-wrap: nowrap;
@@ -129,8 +119,7 @@
         }
 
     transition: border-color var(--time) var(--transform);
-        outline: 2px solid red;
-        outline-offset: -2px;
+
     &:hover,
     &:focus {
     border-color: var(--accent-color);
@@ -141,8 +130,7 @@
     &__contact {
     font-size: 14px;
     line-height: 1.71;
-    outline: 2px solid red;
-    outline-offset: -2px;
+
 
     &--white {
     color: var(--main-white-color);
@@ -174,8 +162,6 @@
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
-    outline: 2px solid red;
-    outline-offset: -2px;
 
 
     @media screen and (min-width:1200px) {
@@ -215,8 +201,6 @@
             margin-left: 70px;
             width: 206px;
         }
-    outline: 2px solid red;
-    outline-offset: -2px;
 }
 
 .contact {
@@ -226,8 +210,6 @@
     &:hover,
     &:focus {
     color: var(--accent-color);
-    outline: 2px solid red;
-    outline-offset: -2px;
 }
 }
 

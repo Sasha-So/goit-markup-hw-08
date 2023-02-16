@@ -1,8 +1,6 @@
 .team-section {
     margin: 0 auto;
     background-color: var(--team-color);
-    outline: 2px solid red;
-    outline-offset: -2px;
 
 
     & li {
@@ -12,8 +10,6 @@
 
     & .section-title {
         padding-bottom: 50px;
-        outline: 2px solid red;
-        outline-offset: -2px;
     }
 }
 
@@ -21,8 +17,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    outline: 2px solid red;
-    outline-offset: -2px;
 }
 
 .team-item {
@@ -31,8 +25,6 @@
     line-height: 1.2;
     text-align: center;
     padding-bottom: 10px;
-    outline: 2px solid red;
-    outline-offset: -2px;
 }
 
 .item {
@@ -41,8 +33,6 @@
             0px 1px 1px rgba(0, 0, 0, 0.14),
             0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    outline: 2px solid red;
-    outline-offset: -2px;
 
     @media screen and (min-width:$tablet){
         width: 354px;
@@ -63,8 +53,6 @@
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
-    outline: 2px solid red;
-    outline-offset: -2px;
 }
 
 

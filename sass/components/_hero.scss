@@ -1,7 +1,15 @@
 
 .hero {
+
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-            rgba(47, 48, 58, 0.4)), url(../images/Header-mob.jpg);
+            rgba(47, 48, 58, 0.4)), url(../images/hero/img-mob@1x.jpg);
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)), url(../images/hero/img_mob@2x.png);
+        }
+
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 26px;
@@ -13,13 +21,27 @@
     margin: 0 auto;
     text-align: center;
 
-        @media screen and (min-width:768px) {
+        @media screen and (min-width:481px) {
             background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-                        rgba(47, 48, 58, 0.4)), url(../images/Header-tab.jpg);
-        }
-        @media screen and (min-width:1200px) {
+                        rgba(47, 48, 58, 0.4)), url(../images/hero/img_tab@1x.jpg);
+        
+        @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+                background-image:linear-gradient(rgba(47, 48, 58, 0.4),
+                        rgba(47, 48, 58, 0.4)), url(../images/hero/img_tab@2x.jpg);
+            }
+                    }
+        @media screen and (min-width:769px) {
             background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-                        rgba(47, 48, 58, 0.4)), url(../images/bckg.jpg);
+                        rgba(47, 48, 58, 0.4)), url(../images/hero/Img_desk@1x.jpg);
+            
+            @media (min-device-pixel-ratio: 2),
+                (min-resolution: 192dpi),
+                (min-resolution: 2dppx) {
+                    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+                            rgba(47, 48, 58, 0.4)), url(../images/hero/Img_desk@2x.jpg);
+                }
             padding-top: 200px;
             padding-bottom: 200px;
         }
