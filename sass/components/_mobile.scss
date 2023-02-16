@@ -1,4 +1,4 @@
-.menu {
+.menu-container {
     display: flex;
     padding: 0;
     margin: 0;
@@ -6,12 +6,12 @@
 }
 
 @media (max-width: 767px) {
-    .menu {
+    .menu-container {
         display: none;
     }
 }
 
-.menu {
+.menu-container {
     padding: 10px;
     color: inherit;
     text-decoration: none;
