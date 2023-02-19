@@ -36,7 +36,7 @@
 
     transition: transform var(--time) var(--transform);
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: $desktop) {
         min-width: 528px;
     }
 
@@ -95,7 +95,7 @@
         line-height: calc(30/20);
         color: var(--heading-text-color);
 
-        @media screen and (min-width:1200px) {
+        @media screen and (min-width:$desktop) {
             font-size: 20px;
             line-height: calc(23/20);
         }
@@ -174,7 +174,7 @@
                 letter-spacing: 0.01em;
                 color: rgba(117, 117, 117, 0.5);
 
-                @media screen and (min-width:1200px) {
+                @media screen and (min-width:$desktop) {
                 font-size: 12px;
                 line-height: calc(14/12);
                 }
@@ -216,7 +216,7 @@
         line-height: calc(14/12);
 
 
-        @media screen and (min-width:1200px) {
+        @media screen and (min-width:$desktop) {
             font-size: 14px;
             line-height: calc(24/14);
         }

@@ -3,6 +3,7 @@
 
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)), url(../images/hero/img-mob@1x.jpg);
+
     @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
@@ -21,7 +22,7 @@
     margin: 0 auto;
     text-align: center;
 
-        @media screen and (min-width:481px) {
+        @media screen and (min-width: $tablet) {
             background-image: linear-gradient(rgba(47, 48, 58, 0.4),
                         rgba(47, 48, 58, 0.4)), url(../images/hero/img_tab@1x.jpg);
         
@@ -32,7 +33,7 @@
                         rgba(47, 48, 58, 0.4)), url(../images/hero/img_tab@2x.jpg);
             }
                     }
-        @media screen and (min-width:769px) {
+        @media screen and (min-width:$desktop) {
             background-image: linear-gradient(rgba(47, 48, 58, 0.4),
                         rgba(47, 48, 58, 0.4)), url(../images/hero/Img_desk@1x.jpg);
             
@@ -59,7 +60,7 @@
         margin-bottom: 30px;
         max-width: 360px;
             
-        @media screen and (min-width:1200px) {
+        @media screen and (min-width:$desktop) {
             
             font-size: 44px;
             line-height: 1.36;
