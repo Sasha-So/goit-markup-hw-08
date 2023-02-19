@@ -33,13 +33,17 @@
             0px 1px 1px rgba(0, 0, 0, 0.14),
             0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-
-    @media screen and (min-width:$tablet){
-        width: 354px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+        @media screen and (min-width: $tablet) {
+            width: calc((100% - 30px) / 2);
+            margin-bottom: 0;
         }
-
-    @media screen and (min-width:$desktop) {
-        width: 270px;
+    
+        @media screen and (min-width: $desktop) {
+            width: calc((100% - 3 * 30px) / 4);
+            margin-bottom: 0;
     }
 
 
