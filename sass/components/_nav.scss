@@ -41,7 +41,11 @@
         }
         
     }
-    
+
+    &__item:not(:last-child){
+        margin-right: 50px;
+    }
+
     &__link {
         color: var(--heading-text-color);
         font-weight: 500;
@@ -49,7 +53,6 @@
         line-height: 1.14;
         letter-spacing: 0.02em;
         display: block;
-        margin-right: 50px;
         padding-top: 32px;
         padding-bottom: 32px;
     
